@@ -1,0 +1,76 @@
+.attribution{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),url(./../assets/bgreservation.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: left;
+}
+
+.attribution h1{
+    color: #F9F9F9;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+}
+
+.groupe{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.groupe form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personne {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+button,
+input[type=submit],
+input[type=reset]{
+    border-style: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color:#EB4C56;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+input{
+    align-self: center;
+    margin: 5% auto;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

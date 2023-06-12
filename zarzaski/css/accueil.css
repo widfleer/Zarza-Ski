@@ -1,0 +1,338 @@
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),url(./../assets/photoaccueil.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1{
+    color: #F9F9F9;
+    font-size: 7em;
+    text-align: center;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+}
+
+.home p{
+    color: #F9F9F9;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+}
+
+.home button{
+    border-style: none;
+    padding: 20px 40px;
+    margin-top: 10vh;
+    background-color:#EB4C56;
+}
+
+.home button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.pres {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-wrap: wrap;  
+    height: 33%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    margin-top: 30px;
+    background-color: #F8F8F8;
+    height: 66vh;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container22 {
+    flex-wrap: wrap;  
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2ss {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;  
+    height: 80%;
+}
+
+.container2ss img {
+    margin : 2px;
+    width: 75%;
+}
+
+.container2ss h2 {
+    color: #EB4C56;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste_partenaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 25%;
+}
+
+.partenaire {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
+
+.pourquoi {
+    background-color: #ebebeb;
+    padding: 30px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+}
+
+.pourquoi img {
+    width: 20%;
+    height: 20%;
+    margin-right: 30px;
+}
+
+.pourquoi div {
+    width: 30%;
+    height: fit-content;
+}
+
+.pourquoi div p {
+    font-size: 1.5em;
+}
+
+.pourquoi h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.users {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 25%;
+    padding-bottom: 30px;
+}
+
+.users table {
+    align-self: center;
+    width: 70%;
+    text-align: left;
+}
+
+.users table th {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+.users table td {
+    font-size: 1.25em;
+    text-align: justify!important;
+    width: 2%;
+    padding-right: 40px;
+    height: fit-content;
+}
+
+.autres {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    background-color: #ebebeb;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 30%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container3ss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.container3ss h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.container3ss p {
+    font-size: 1.25em;
+}
+
+.extrait {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 450px;
+    background: url(./../assets/bgvideocfe36afpng2413-y5sv-700w.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rouge {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #EB4C56;
+    box-shadow: 0px 0px 70.6195px rgba(238, 11, 75, 0.69);
+    transform: matrix(1, -0.07, 0, 1, 0, 0);
+}
+
+.triangle {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border-top: 25px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 25px solid transparent;
+}
+
+.map {
+    margin-top: 30px;
+    background: url(./../assets/zarzamodified1i241-1fgt-700h.png)no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 250px;
+}
+
+.loca {
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30%;
+}
+
+.loca>.ele {
+    padding-left: 10px;
+}
+
+.eless {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 120%;
+    height: 100%;
+}
+
+.interet {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+@media (max-width: 1920px) and (min-width: 1300px)  {
+    .pres{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container2ss {
+        margin-left: 7vw;
+    }
+
+    .container2ss img {
+        width: 50%;
+    }
+}

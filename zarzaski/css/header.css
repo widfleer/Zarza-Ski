@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    background-color: RGBa(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.COMPTE img {
+    padding-top: 5px;
+    width: 50px;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+header .NAVI {
+    position: relative;
+    line-height: 40px;
+}
+
+header .NAVI .menu {
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    user-select: none;
+}
+
+.menu li>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+.menu .item:hover {
+    background-color:#EB4C56;
+    transition: 0.3s;
+}
+
+.scroll {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #f7af3e;
+    transition: width 0.3s ease-in-out;
+}

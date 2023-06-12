@@ -1,0 +1,117 @@
+footer {
+    background-color: #1B1A1F;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+}
+
+footer table {
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer .social img{
+    width: 2.5vw;
+}
+
+.rights {
+    background-color: #EB4C56;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin-top: 15px;
+}
+
+footer h4,
+footer span,
+footer li,
+footer a {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+footer h4{
+    font-size: 1.5em;
+    padding-bottom: 2% ;
+}
+
+footer span{
+    padding: 0 20px;
+}
+
+.num>p {
+    color: white;
+}
+
+.num>p>a:link {
+    color: white;
+}
+
+.appeler {
+    background-color: #49484c;
+    width: fit-content;
+    padding: 5px;
+    align-self: center;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.iconetel img {
+    width: 1vw!important;
+    margin-left: 10px!important;
+}
+
+.reseaux {
+    width: fit-content;
+    display: flex;
+    align-self: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.reseau {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #49484c;
+    border-radius: 50%;
+}
+
+.reseau img {
+    width: 1.5vw!important;
+}
+
+
+@media (max-width:1200px){
+
+    footer .social img{
+        width: 5vw;
+    }
+
+    .reseau img {
+        width: 5vw!important;
+    }
+}
+
+@media (max-width:330px){
+    footer h4{
+        font-size: 1em;
+    }
+    
+    footer span{
+        padding: 3px;
+    }
+
+    
+
+@media(max-width:264px){
+    footer h4{
+        font-size: 4vw;
+    }
+    footer li,
+    footer a{
+        font-size: 3vw;
+    }
+}
+}

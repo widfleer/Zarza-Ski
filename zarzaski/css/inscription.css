@@ -1,0 +1,85 @@
+.connexion{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),url(./../assets/photoaccueil.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.connexion h1{
+    color: #EB4C56;
+    font-size: 3em;
+    text-align: center;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+}
+
+form{
+    margin:5% 0;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #677d97;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=submit],
+input[type=reset]{
+    border-style: none;
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color:#EB4C56;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+input{
+    align-self: center;
+    margin: 5% auto;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=tel]{
+    border-radius: 5px;
+    padding: 10px;
+    width: 20vw;
+}
+
+label{
+    margin-right:10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.valid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscription p{
+    font-size: medium;
+}
+
+#supp {
+    color: white;
+    font-size: 1em;
+}
+
+#radio {
+    padding-left: 7vw;
+}

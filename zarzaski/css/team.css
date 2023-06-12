@@ -1,0 +1,43 @@
+.contact{
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #EB4C56;
+    font-size: 7em;
+    text-align: center;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.team{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #EB4C56;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.team_block {
+    display: flex;
+}

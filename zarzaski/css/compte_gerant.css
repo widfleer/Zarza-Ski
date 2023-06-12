@@ -1,0 +1,125 @@
+.acc{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: left;
+}
+
+button, input[type=submit]{
+    border-style: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color:#EB4C56;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin: 20px; 
+    color: #EB4C56;
+    font-size: 2em;
+}
+
+h3{
+    margin: 20px;    
+}
+
+.container {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+    border: 1px solid;
+    width: 75%; 
+    padding: 20px;
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.wimg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients_group {
+    display: flex;
+    align-items: center!important;
+    justify-items: center!important;
+}
+
+.clients_block {
+    display: flex;
+    align-self: center!important;
+    width: fit-content;
+}
+
+.clients_block table,
+.clients_block th,
+.clients_block td,
+.statistic_block table,
+.statistic_block th,
+.statistic_block td {
+  border: 1px solid black;
+}
+
+.statistic_block table {
+    width : 100%;
+    border-spacing: 0; 
+}
+
+.clients_block table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center!important;
+  width: 100%;
+  max-height: 400px;
+  width : 95%;
+  /*margin: 0 auto;*/
+  display: block;
+  overflow-y: auto;
+  border-spacing: 0;
+}
+
+.clients_block tbody {
+    white-space: wrap;
+  }
+
+.clients_block th,
+.clients_block td,
+.statistic_block th,
+.statistic_block td {
+  padding: 5px;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+.clients_block th,
+.statistic_block th {
+    padding: 5px 10px!important;
+  position: sticky;
+  top: 0;
+  background: #EB4C56;
+  color: white;
+  vertical-align: bottom;
+}
+
+.clients_block th:last-child,
+.clients_block td:last-child,
+.statistic_block th:last-child,
+.statistic_block td:last-child {
+  border-right-width: 0;
+}
+
+.clients_block tr:last-child td,
+.statistic_block tr:last-child td {
+  border-bottom-width: 0;
+}

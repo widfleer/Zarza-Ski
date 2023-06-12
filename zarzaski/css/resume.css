@@ -1,0 +1,56 @@
+.secinfos{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),url(./../assets/bgreservation.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: left;
+}
+
+.secinfos h1{
+    color: #F9F9F9;
+    font-size: 3.5vw;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+    align-items:center;
+    justify-content: center;
+}
+
+.contain_contain {
+    margin-top: 10vh;
+    background-color: #F9F9F9;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center!important;
+}
+
+.container_infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.infos{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1em;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #EB4C56;
+}

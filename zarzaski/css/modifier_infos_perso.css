@@ -1,0 +1,61 @@
+.modifier{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)),url(./../assets/photoaccueil.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modifier h1{
+    color: #EB4C56;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-shadow:2px 2px 1px RGBa(0, 0, 0, 0.5);
+}
+
+.champs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: fit-content; 
+}
+
+.champ {
+    font-size: larger;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit]{
+    border-style: none;
+    padding: 20px 40px;
+    margin-top: 10vh;
+    background-color:#EB4C56;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button{
+    border-style: none;
+    padding: 20px 40px;
+    margin-top: 10vh;
+    background-color:#EB4C56;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
