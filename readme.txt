@@ -1,3 +1,5 @@
+Site réalisé en binome
+
 https://etudiant.u-pem.fr/~loelia.coutellier/Zarza-Ski/index.php
 
 quelques logins : 
