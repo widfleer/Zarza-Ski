@@ -1,4 +1,4 @@
-Site réalisé en binome
+Site réalisé en binôme
 
 https://etudiant.u-pem.fr/~loelia.coutellier/Zarza-Ski/index.php
 
